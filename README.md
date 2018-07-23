@@ -20,7 +20,7 @@ In cores/config.py, all the parameters are shown. The most important one "BASE_N
 Please follow "pipeline.sh" to run the programs. It is worth noting that most of the scripts can be executed multiple times to speed things up. Refer to "pipeline.sh" for more details.
 
 # EVALUATION
-Download the trained models, Resnet50 ([HERE](https://1drv.ms/u/s!ArsE1Wwv6I6dfsCommqv8dQLU9s)) or VGG16 ([HERE](https://1drv.ms/u/s!ArsE1Wwv6I6df_zvihgMmDbRfNw)), and put it in the folder "snapshots".
+Download the trained models, Resnet50 ([HERE](https://1drv.ms/u/s!ArsE1Wwv6I6dgQp_Dx2pKlK4_Pef)) or VGG16 ([HERE](https://1drv.ms/u/s!ArsE1Wwv6I6df_zvihgMmDbRfNw)), and put it in the folder "snapshots".
 In cores/config.py, set "BASE_NET" to "vgg16" or "resnet50" to choose the desired model, and run:
 
 ```python eval_seg_model.py --model final --gpu 0 --epoch 19```
